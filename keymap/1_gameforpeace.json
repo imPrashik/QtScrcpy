@@ -1,0 +1,359 @@
+{
+	"switchKey": "Key_QuoteLeft",
+	"mouseMoveMap": {
+		"startPos": {
+			"x": 0.57,
+			"y": 0.26
+		},
+		"speedRatioX": 3.25,
+		"speedRatioY": 1.25,
+		"smallEyes": {
+			"comment": "Small Eyes",
+			"type": "KMT_CLICK",
+			"key": "Key_Alt",
+			"pos": {
+				"x": 0.78,
+				"y": 0.31
+			},
+			"switchMap": false
+		},
+		"speedRatio": 10
+	},
+	"keyMapNodes": [
+		{
+			"comment": "steering wheel",
+			"type": "KMT_STEER_WHEEL",
+			"centerPos": {
+				"x": 0.16,
+				"y": 0.75
+			},
+			"leftOffset": 0.1,
+			"rightOffset": 0.1,
+			"upOffset": 0.27,
+			"downOffset": 0.2,
+			"leftKey": "Key_A",
+			"rightKey": "Key_D",
+			"upKey": "Key_W",
+			"downKey": "Key_S"
+		},
+		{
+			"comment": "Left probe",
+			"type": "KMT_CLICK_TWICE",
+			"key": "Key_Q",
+			"pos": {
+				"x": 0.15,
+				"y": 0.35
+			}
+		},
+		{
+			"comment": "Right probe",
+			"type": "KMT_CLICK_TWICE",
+			"key": "Key_E",
+			"pos": {
+				"x": 0.23,
+				"y": 0.35
+			}
+		},
+		{
+			"comment": "Run automatically",
+			"type": "KMT_CLICK",
+			"key": "Key_Equal",
+			"pos": {
+				"x": 0.82,
+				"y": 0.26
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "jump",
+			"type": "KMT_CLICK",
+			"key": "Key_Space",
+			"pos": {
+				"x": 0.94,
+				"y": 0.7
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "map",
+			"type": "KMT_CLICK",
+			"key": "Key_M",
+			"pos": {
+				"x": 0.96,
+				"y": 0.03
+			},
+			"switchMap": true
+		},
+		{
+			"comment": "backpack",
+			"type": "KMT_CLICK",
+			"key": "Key_Tab",
+			"pos": {
+				"x": 0.1,
+				"y": 0.9
+			},
+			"switchMap": true
+		},
+		{
+			"comment": "Perspective",
+			"type": "KMT_CLICK",
+			"key": "Key_V",
+			"pos": {
+				"x": 0.25,
+				"y": 0.87
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "lean over",
+			"type": "KMT_CLICK",
+			"key": "Key_Z",
+			"pos": {
+				"x": 0.91,
+				"y": 0.9
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "crouch",
+			"type": "KMT_CLICK",
+			"key": "Key_C",
+			"pos": {
+				"x": 0.83,
+				"y": 0.92
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Reload",
+			"type": "KMT_CLICK",
+			"key": "Key_R",
+			"pos": {
+				"x": 0.755,
+				"y": 0.93
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Pick up 1",
+			"type": "KMT_CLICK",
+			"key": "Key_F",
+			"pos": {
+				"x": 0.7,
+				"y": 0.34
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Pick up 2",
+			"type": "KMT_CLICK",
+			"key": "Key_G",
+			"pos": {
+				"x": 0.7,
+				"y": 0.44
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Pick up 3",
+			"type": "KMT_CLICK",
+			"key": "Key_H",
+			"pos": {
+				"x": 0.7,
+				"y": 0.54
+			},
+			"switchMap": false
+		}
+		,
+		{
+			"comment": "Change gun 1",
+			"type": "KMT_CLICK",
+			"key": "Key_1",
+			"pos": {
+				"x": 0.45,
+				"y": 0.9
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Change gun 2",
+			"type": "KMT_CLICK",
+			"key": "Key_2",
+			"pos": {
+				"x": 0.55,
+				"y": 0.9
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Change gun 1 Mode",
+			"type": "KMT_CLICK",
+			"key": "Key_B",
+			"pos": {
+				"x": 0.45,
+				"y": 0.85
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Change gun 2 Mode",
+			"type": "KMT_CLICK",
+			"key": "Key_N",
+			"pos": {
+				"x": 0.55,
+				"y": 0.85
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Grenade",
+			"type": "KMT_CLICK",
+			"key": "Key_3",
+			"pos": {
+				"x": 0.67,
+				"y": 0.92
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Fast medicine",
+			"type": "KMT_CLICK",
+			"key": "Key_4",
+			"pos": {
+				"x": 0.33,
+				"y": 0.95
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Exit",
+			"type": "KMT_CLICK",
+			"key": "Key_5",
+			"pos": {
+				"x": 0.86,
+				"y": 0.42
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Revive",
+			"type": "KMT_CLICK",
+			"key": "Key_6",
+			"pos": {
+				"x": 0.49,
+				"y": 0.63
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "pistol",
+			"type": "KMT_CLICK",
+			"key": "Key_7",
+			"pos": {
+				"x": 0.60,
+				"y": 0.83
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Car acceleration",
+			"type": "KMT_CLICK",
+			"key": "Key_Shift",
+			"pos": {
+				"x": 0.8,
+				"y": 0.8
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Throwing object menu",
+			"type": "KMT_CLICK",
+			"key": "Key_F1",
+			"pos": {
+				"x": 0.66,
+				"y": 0.88
+			},
+			"switchMap": true
+		},
+		{
+			"comment": "Drug menu",
+			"type": "KMT_CLICK",
+			"key": "Key_F2",
+			"pos": {
+				"x": 0.33,
+				"y": 0.88
+			},
+			"switchMap": true
+		},
+		{
+			"comment": "Message menu",
+			"type": "KMT_CLICK",
+			"key": "Key_F3",
+			"pos": {
+				"x": 0.90,
+				"y": 0.34
+			},
+			"switchMap": true
+		},
+		{
+			"comment": "Emoji menu",
+			"type": "KMT_CLICK",
+			"key": "Key_F4",
+			"pos": {
+				"x": 0.75,
+				"y": 0.03
+			},
+			"switchMap": true
+		},
+		{
+			"comment": "Open and close the door",
+			"type": "KMT_CLICK",
+			"key": "Key_X",
+			"pos": {
+				"x": 0.7,
+				"y": 0.7
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Open Crate",
+			"type": "KMT_CLICK",
+			"key": "Key_T",
+			"pos": {
+				"x": 0.67,
+				"y": 0.26
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Pickup",
+			"type": "KMT_CLICK",
+			"key": "Key_Y",
+			"pos": {
+				"x": 0.72,
+				"y": 0.26
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "shot",
+			"type": "KMT_CLICK",
+			"key": "LeftButton",
+			"pos": {
+				"x": 0.86,
+				"y": 0.72
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Open Scope",
+			"type": "KMT_CLICK",
+			"key": "RightButton",
+			"pos": {
+				"x": 0.96,
+				"y": 0.52
+			},
+			"switchMap": false
+		}
+	]
+}
